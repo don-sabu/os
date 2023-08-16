@@ -2,7 +2,7 @@
 int requestLessThanWork(int r, int work[], int request[])
 {
     for(int i=0;i<r;i++)
-        if(work[i]<request[i])
+        if(work[i] <= request[i])
             // If the any of the request is greater than work then the function exits from here returning false.
             return 0;
     // If there is no request greater than work then this method returns true.
